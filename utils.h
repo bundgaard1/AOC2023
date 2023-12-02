@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-
+#include <sstream>
 using namespace std;
 
 template <typename T>
@@ -25,12 +25,3 @@ void print_vector(vector<T> v) {
 }
 
 
-// vector<string> tokenize(const string& l, char tokenizer) {
-//     vector<string> tokens;
-//     stringstream check(l);
-//     string part;
-//     while (getline(check, part, tokenizer)) {
-//         tokens.push_back(part);
-//     }
-//     return tokens;
-// }

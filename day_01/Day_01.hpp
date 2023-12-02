@@ -39,8 +39,8 @@ class Day_01 : public IDay {
     }
 
     int part2solution() override {
-        vector<pair<int, string>> digits{{100, "zero"}, {3, "one"}, {3, "two"},   {5, "three"}, {4, "four"},
-                                         {4, "five"}, {3, "six"}, {5, "seven"}, {5, "eight"}, {4, "nine"}};
+        vector<string> digits{{"zero"}, {"one"}, {"two"}, {"three"}, {"four"},
+                                         {"five"}, {"six"}, {"seven"}, {"eight"}, {"nine"}};
 
         string line;
 
@@ -55,11 +55,11 @@ class Day_01 : public IDay {
                 } else {
                     for (int j = 1; j <= 10; j++)
                     {
-                        if(digits[j].first + i > line.size()){
+                        if(digits[j].size() + i > line.size()){
                             continue;
                         } else {
-                            string sub = line.substr(i,digits[j].first);
-                            if(sub == digits[j].second){
+                            string sub = line.substr(i,digits[j].size());
+                            if(sub == digits[j]){
                                 curr.push_back(j);
                             }
                         }
