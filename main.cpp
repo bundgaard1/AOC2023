@@ -3,9 +3,10 @@
 using namespace std;
 
 int main() {
-    Day_02 day(IDay::runType::input);
+    Day_03 day(IDay::runType::input);
     day.part1();
     day.part2();
 
     return 0;
 }
+
