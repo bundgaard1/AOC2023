@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "*.rmd": "markdown",
         "algorithm": "cpp",
         "*.tcc": "cpp",
         "array": "cpp",
@@ -50,6 +51,8 @@
         "sstream": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "map": "cpp",
+        "set": "cpp"
     }
 }
