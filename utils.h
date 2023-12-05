@@ -10,6 +10,7 @@
 #include <iostream>
 #include <map>
 #include <set>
+#include <stack>
 #include <sstream>
 #include <string>
 #include <vector>

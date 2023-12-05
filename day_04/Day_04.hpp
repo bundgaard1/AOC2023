@@ -110,7 +110,5 @@ class Day_04 : public IDay {
         
 
         return sum;
-
-        return -1;
     }
 };
