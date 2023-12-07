@@ -22,7 +22,7 @@ void print_vector(vector<T> v) {
     for (T a : v) {
         cout << a << ", ";
     }
-    cout << "}" << endl;
+    cout << "}";
 }
 
 vector<string> tokenize(string l, char tokenizer) {
