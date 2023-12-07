@@ -223,6 +223,7 @@ class Day_05 : public IDay {
 
             for (auto n : numbers) {
                 vector<interval> new_numbers = get_next_numbers(curr_map, n);
+                
                 for (auto i : new_numbers)
                 {
                     next_numbers.push_back(i);
