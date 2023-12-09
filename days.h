@@ -5,3 +5,4 @@
 #include "day_05/Day_05.hpp"
 #include "day_06/Day_06.hpp"
 #include "day_07/Day_07.hpp"
+#include "day_08/Day_08.hpp"
