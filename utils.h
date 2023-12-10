@@ -10,19 +10,20 @@
 #include <iostream>
 #include <map>
 #include <set>
-#include <stack>
 #include <sstream>
+#include <stack>
 #include <string>
 #include <vector>
 using namespace std;
 
 template <typename T>
-void print_vector(vector<T> v) {
+void print_vector(vector<T> v, bool newline = 0) {
     cout << "{";
     for (T a : v) {
         cout << a << ", ";
     }
     cout << "}";
+    if (newline) cout << endl;
 }
 
 vector<string> tokenize(string l, char tokenizer) {
