@@ -5,6 +5,7 @@
 #include <stdlib.h>
 
 #include <algorithm>
+#include <queue>
 #include <cassert>
 #include <fstream>
 #include <iostream>
