@@ -17,14 +17,14 @@ class IDay {
     void part1() {
         solutionSetup(); 
 
-        int answer = part1solution();
+        int64_t answer = part1solution();
         cout << "Part 1: " << answer << endl;
     }
 
     void part2() {
         solutionSetup();
         
-        int answer = part2solution();
+        int64_t answer = part2solution();
         cout << "Part 2: " << answer << endl;
     }
 
