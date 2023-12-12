@@ -9,3 +9,4 @@
 #include "day_09/Day_09.hpp"
 #include "day_10/Day_10.hpp"
 #include "day_11/Day_11.hpp"
+#include "day_12/Day_12.hpp"

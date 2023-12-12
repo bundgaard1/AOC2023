@@ -15,10 +15,13 @@
 #include <stack>
 #include <string>
 #include <vector>
+#include <numeric>
+#include <tuple>
+#include <bitset>
 using namespace std;
 
 template <typename T>
-void print_vector(vector<T> v, bool newline = 0) {
+void print_vector(const vector<T>& v, bool newline = 0) {
     cout << "{";
     for (T a : v) {
         cout << a << ", ";
@@ -27,7 +30,7 @@ void print_vector(vector<T> v, bool newline = 0) {
     if (newline) cout << endl;
 }
 
-vector<string> tokenize(string l, char tokenizer) {
+vector<string> tokenize(const string& l, char tokenizer) {
     vector<string> tokens;
     stringstream check(l);
     string part;
