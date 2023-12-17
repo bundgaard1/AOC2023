@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    Day_16 day(IDay::runType::input );
+    Day_17 day(IDay::runType::input  );
     day.part1();
     day.part2();
 

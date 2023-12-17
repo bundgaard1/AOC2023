@@ -54,6 +54,7 @@
         "typeinfo": "cpp",
         "map": "cpp",
         "set": "cpp",
-        "cassert": "cpp"
+        "cassert": "cpp",
+        "bitset": "cpp"
     }
 }
