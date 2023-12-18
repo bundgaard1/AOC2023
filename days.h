@@ -15,7 +15,7 @@
 #include "day_15/Day_15.hpp"
 #include "day_16/Day_16.hpp"
 #include "day_17/Day_17.hpp"
-// #include "day_18/Day_18.hpp"
+#include "day_18/Day_18.hpp"
 // #include "day_19/Day_19.hpp"
 // #include "day_20/Day_20.hpp"
 // #include "day_21/Day_21.hpp"
