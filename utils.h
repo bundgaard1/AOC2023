@@ -41,3 +41,23 @@ vector<string> tokenize(const string& l, char tokenizer) {
     }
     return tokens;
 }
+
+
+int64_t gcd(int64_t a, int64_t b) {
+    int64_t remainder = 0;
+    do {
+        remainder = a % b;
+        a = b; 
+        b = remainder;
+    } while (b != 0);
+    return a;
+}
+
+int64_t lcm(int64_t a, int64_t b) {
+    if (a == 0 || b == 0) {
+        return 0;
+    }
+    return (a * b) / gcd(a, b);
+}
+
+
