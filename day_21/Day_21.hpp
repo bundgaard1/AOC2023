@@ -74,6 +74,7 @@ class Day_21 : public IDay {
     int part2solution() override {
         string line;
         vector<vector<char>> grid;
+    
         int s_x;
         int s_y;
 
