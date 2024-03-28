@@ -22,7 +22,7 @@ class Day_01 : public IDay {
 
         int sum = 0;
 
-        while (getline(inputFile, line)) {
+    	while (getline(inputFile, line)) {
             vector<int> curr;
             for (size_t i = 0; i < line.size(); i++) {
                 char c = line[i];

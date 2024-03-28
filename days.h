@@ -21,5 +21,5 @@
 // #include "day_21/Day_21.hpp"
 // #include "day_22/Day_22.hpp"
 #include "day_23/Day_23.hpp"
-// #include "day_24/Day_24.hpp"
-// #include "day_25/Day_25.hpp"
+#include "day_24/Day_24.hpp"
+#include "day_25/Day_25.hpp"

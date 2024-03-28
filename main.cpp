@@ -1,9 +1,10 @@
 #include "days.h"
 
+
 using namespace std;
 
 int main() {
-    Day_23 day(IDay::runType::example);
+    Day_25 day(IDay::runType::input);
     day.part1();
     day.part2();
 
